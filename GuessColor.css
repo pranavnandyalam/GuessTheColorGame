@@ -1,0 +1,63 @@
+.colorButton{
+    background-color: rgb(255,0,0);
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+}
+
+#buttonWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#colorValue{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#answer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    margin: 0 auto;
+    text-align: center;
+    height: 75px;
+    width: 150px;
+    font-size: large;
+}
+
+button{
+    padding: 10px;
+    background: none;
+    border: 2px solid #000;
+    margin-left: 640px;
+    margin-top: 200px;
+}
+
+button:hover{
+    background-color: lawngreen;
+    color:whitesmoke;
+    border: 2px solid darkcyan;
+    transition-duration: 0.2s;
+}
+
+body {
+  background-image: url('color.jpeg');
+  background-size: cover;
+}
+
+h1{
+    font-family: fantasy;
+}
